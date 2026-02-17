@@ -1,16 +1,28 @@
-# weather_app
+# 🌦️ Weather App (Flutter)
 
-A new Flutter project.
+A simple and clean Flutter Weather Forecast application that fetches real-time weather data using the OpenWeather API.  
+It shows temperature, humidity, wind speed, sunrise/sunset timings and displays Lottie animations based on weather conditions.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Search weather by city name
+- Real-time weather data using OpenWeather API
+- Dynamic UI gradient based on weather condition
+- Lottie animations (Rain, Clear, Cloudy, Snow)
+- Shows:
+  - Temperature (°C)
+  - Weather Description
+  - Humidity (%)
+  - Wind Speed (m/s)
+  - Sunrise & Sunset Time
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+- Flutter
+- Dart
+- OpenWeather API
+- HTTP Package
+- Lottie Animations
+- Intl Package
