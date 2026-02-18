@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (_controller.text.trim().isEmpty) {
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(SnackBar(content: Text("Bhai city name daal 😄")));
+      ).showSnackBar(SnackBar(content: Text("Enter Your City Name")));
       return;
     }
 
